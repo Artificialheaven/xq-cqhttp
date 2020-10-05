@@ -19,7 +19,7 @@
 
 ## 计划目标
 
-兼容CQHTTP大部分api后转手更新XQHTTP原内容。目前仍在更新XQ-CQHTTP中。
+兼容CQHTTP基本API并在此基础上添加一些新的API作为XQHTTP的API。
 
 ## 感谢
 - [CQHTTP](https://github.com/richardchien/coolq-http-api) -  [LICENSE](https://github.com/richardchien/coolq-http-api/blob/master/LICENSE)
