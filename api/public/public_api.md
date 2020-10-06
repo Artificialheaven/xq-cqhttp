@@ -56,3 +56,82 @@
 | Voice_data | str | - | 上传图片的GUID |
 | sign | str | - | 特殊标示，与上文一致 |
 
+## `set_group_kick` 群组踢人
+
+### 参数
+
+| 字段名 | 数据类型 | 默认值 | 说明 |
+| ----- | ------- | ----- | --- |
+| `group_id` | number | - | 群号 |
+| `user_id` | number | - | 要踢的 QQ 号  |
+| `reject_add_request` | boolean | `false` | 拒绝此人的加群请求 |
+
+### 响应数据
+
+无
+
+## `set_group_ban` 群组单人禁言
+
+### 参数
+
+| 字段名 | 数据类型 | 默认值 | 说明 |
+| ----- | ------- | ----- | --- |
+| `group_id` | number | - | 群号 |
+| `user_id` | number | - | 要禁言的 QQ 号 |
+| `duration` | number | `30 * 60` | 禁言时长，单位秒，0 表示取消禁言 |
+
+### 响应数据
+
+无
+
+## `set_group_whole_ban` 群组全员禁言
+
+### 参数
+
+| 字段名 | 数据类型 | 默认值 | 说明 |
+| ----- | ------- | ----- | --- |
+| `group_id` | number | - | 群号 |
+| `enable` | boolean | `true` | 是否禁言 |
+
+### 响应数据
+
+无
+
+## `set_group_admin` 群组设置管理员
+
+### 参数
+
+| 字段名 | 数据类型 | 默认值 | 说明 |
+| ----- | ------- | ----- | --- |
+| `group_id` | number | - | 群号 |
+| `user_id` | number | - | 要设置管理员的 QQ 号 |
+| `enable` | boolean | `true` | true 为设置，false 为取消 |
+
+### 响应数据
+
+无
+
+## `set_group_leave` 退出群组
+
+### 参数
+
+| 字段名 | 数据类型 | 默认值 | 说明 |
+| ----- | ------- | ----- | --- |
+| `group_id` | number | - | 群号 |
+| `is_dismiss` | boolean | `false` | 是否解散，如果登录号是群主，则仅在此项为 true 时能够解散 |
+
+### 响应数据
+
+无
+
+## `set_discuss_leave` 退出讨论组
+
+### 参数
+
+| 字段名 | 数据类型 | 默认值 | 说明 |
+| ----- | ------- | ----- | --- |
+| `discuss_id` | number | - | 讨论组 ID（正常情况下看不到，需要从讨论组消息上报的数据中获得） |
+
+### 响应数据
+
+无
