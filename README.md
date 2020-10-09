@@ -29,6 +29,10 @@
 
 兼容CQHTTP基本API并在此基础上添加一些新的API作为XQHTTP的API。
 
+## 严重错误
+
+在**类WIN10**环境下不能运行XQ-CQHTTP，请回退至最高 win2012（或win7） 以下使用，或使用虚拟机。
+
 ## 感谢
 - [CQHTTP](https://github.com/richardchien/coolq-http-api) -  [LICENSE](https://github.com/richardchien/coolq-http-api/blob/master/LICENSE)
 - [Yiwen-Chan](https://github.com/Yiwen-Chan/) - [GroupManager](https://github.com/Yiwen-Chan/GroupManager)
