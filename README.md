@@ -31,7 +31,9 @@
 
 ## 严重错误
 
-在**类WIN10**环境下不能运行XQ-CQHTTP，请回退至最高 win2012（或win7） 以下使用，或使用虚拟机。
+'在**类WIN10**环境下不能运行XQ-CQHTTP，请回退至最高 win2012（或win7） 以下使用，或使用虚拟机。'
+
+在类WIN10环境下请使用概念版 BETA 1.7.1 版本，并使用正向WS通信系统。
 
 ## 感谢
 - [CQHTTP](https://github.com/richardchien/coolq-http-api) -  [LICENSE](https://github.com/richardchien/coolq-http-api/blob/master/LICENSE)
