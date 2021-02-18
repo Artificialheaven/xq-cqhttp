@@ -1,5 +1,5 @@
 # xqhttp
-
+**自 3.0.0 版本后，请使用v2api。同时不支持原onebot协议。**
 ## 什么是XQHTTP？
   
     XQHTTP是使用易语言编的插件。...
